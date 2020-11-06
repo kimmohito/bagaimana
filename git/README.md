@@ -6,6 +6,14 @@ Git merupakan *version control*, yang digunakan untuk mencatat segala perubahan 
 
 ## Pemasangan
 
+### Windows
+
+### Linux
+
+```bash
+$ sudo apt-get install git
+```
+
 
 
 ## Penggunaan
