@@ -1,6 +1,3 @@
-[html](../git)
-
-
 ## Editor
 Anda boleh menggunakan sama ada *Microsoft Notepad* yang tersedia dalam *Windows* ataupun *text-editor* yang lain seperti *Notepad++*, *VSCode*, *Sublime*
 
