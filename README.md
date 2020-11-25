@@ -17,35 +17,42 @@ Seperti yang sedia maklmum, *domain* adalah nama laman web yang ditulis pada *ad
 ```
 https://www.example.com.my/user/index.html?id=123&name=kim
 ```
-| Bahagian | Nama | Penjelasan |
-| - | - | - |
-| https:// | Protocol | Protokol komunikasi adalah sistem peraturan yang membolehkan dua atau lebih entiti sistem komunikasi menghantar maklumat melalui jenis variasi kuantiti fizikal. Untuk penjelasan lanjut mengenai HTTP, boleh baca di bahagian [HTTP vs HTTPS](##http-vs-https) |
-| www. | Sub Domain | Dalam hierarki Sistem Nama Domain, subdomain merupakan pecahan domain dibawah domain utama. |
-| example | Domain Name Server (DNS) | Nama domain digunakan dalam pelbagai konteks rangkaian dan untuk tujuan penamaan dan alamat khusus aplikasi. |
-| .com | Top-level Domain (TLD) | Sesiapa sahaja boleh daftar untuk TLD `.com-commercial` ini. Manakala TLD yang terkawal seperti `.org-organization`, `.edu-education`, `.gov-goverment` hanya boleh didaftarkan oleh pertubuhan rasmi sahaja. |
-| .my | Country Code Top-level Domain (ccTLD) |ccTLD dikhususkan untuk negara, semua ccTLD terdiri daripada 2 huruf sahaja. Berikut merupakan senarai ringkas:<br> `.my` - malaysia<br>`.id` - indonesia <br>`.jp` - jepun<br>`.ru` - rusia<br> *Untuk mempunyai TLD `.my`, pemilik domain perlu mempunyai SSM terlebih dahulu. |
-| /user/ | path folder | Sekiranya folder tidak wujud, laman web akan menunjukkan laman `error 404 not found` menandakan path atau file tidak wujud. |
-| index.html | file | Semua laman web menggunakan `index` sebagai halaman utama mereka. boleh jadi:<br>`.html`<br>`.php`<br>`.js`<br>`.aspx`  |
-| ?id=123&name=kim | query parameter | Dimulakan dengan simbol `?` dan dipisahkan dengan simbol `&`, disini kita dapat lihat terdapat dua query yang telah ditulis iaitu:<br>`id=47`<br>`name=kim` |
+| Bahagian | Nama |
+| - | - |
+| https:// | Protocol | 
+| www. | Sub Domain |
+| example |  Domain Name Server (DNS) |
+| .com | Top-level Domain (TLD) |
+| .my | Country Code Top-level Domain (ccTLD) |
+| /user/ | path folder |
+| index.html | file |
+| ?id=123&name=kim | query parameter |
 
+## Protocol
+Protokol komunikasi adalah sistem peraturan yang membolehkan dua atau lebih entiti sistem komunikasi menghantar maklumat melalui jenis variasi kuantiti fizikal. Untuk penjelasan lanjut mengenai HTTP, boleh baca di bahagian [HTTP vs HTTPS](#http-vs-https)
+
+## Sub Domain
+Dalam hierarki Sistem Nama Domain, subdomain merupakan pecahan domain dibawah domain utama.
+
+## Domain Name Server (DNS)
+ Nama domain digunakan dalam pelbagai konteks rangkaian dan untuk tujuan penamaan dan alamat khusus aplikasi.
+
+## Top-level Domain (TLD)
+Sesiapa sahaja boleh daftar untuk TLD `.com` - commercial ini. Manakala TLD yang terkawal seperti `.org` - organization, `.edu` - education, `.gov` - goverment hanya boleh didaftarkan oleh pertubuhan rasmi sahaja.
+
+## Country Code Top-level Domain (ccTLD)
+ccTLD dikhususkan untuk negara, semua ccTLD terdiri daripada 2 huruf sahaja. Berikut merupakan senarai ringkas:<br> `.my` - malaysia<br>`.id` - indonesia <br>`.jp` - jepun<br>`.ru` - rusia<br> *Untuk mempunyai TLD `.my`, pemilik domain perlu mempunyai SSM terlebih dahulu. |
+
+## Folder Path
+Sekiranya folder tidak wujud, laman web akan menunjukkan laman `error 404 not found` menandakan path atau file tidak wujud. 
+
+## File
+Semua laman web menggunakan `index` sebagai halaman utama mereka. boleh jadi: `.html`, `.php`, `.js`, `.aspx` 
+
+## Query Parameter
+Dimulakan dengan simbol `?` dan dipisahkan dengan simbol `&`, disini kita dapat lihat terdapat dua query yang telah ditulis iaitu: `id=47`, `name=kim`
 
 ## HTTP vs HTTPS
 Hypertext Transfer Protocol (HTTP) adalah protokol lapisan aplikasi untuk menghantar dokumen hipermedia, seperti HTML. Ia dirancang untuk komunikasi antara pelayar web dan pelayan web, tetapi juga dapat digunakan untuk tujuan lain.
 Manakala HTTPS pula adalah Hypertext Transfer Protocol Secure, fungsinya sama seperti HTTP cuma ditambahkan *ecnryption*. Supaya penggodam tidak dapat memahami komunikasi antara client dan server.
 <img src="hacker.jpg">
-
-
-
-
-
-
-## Web Server
-
-
-
-
-## Web Browser
-
-
-
-## Text Editor
