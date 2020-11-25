@@ -17,16 +17,45 @@ Seperti yang sedia maklmum, *domain* adalah nama laman web yang ditulis pada *ad
 ```
 https://www.example.com.my/user/index.html?id=123&name=kim
 ```
-| Bahagian | Nama |
-| - | - |
-| https:// | Protocol | 
-| www. | Sub Domain |
-| example |  Domain Name Server (DNS) |
-| .com | Top-level Domain (TLD) |
-| .my | Country Code Top-level Domain (ccTLD) |
-| /user/ | path folder |
-| index.html | file |
-| ?id=123&name=kim | query parameter |
+
+<table>
+    <tr>
+        <th>Bahagian</th>
+        <th>Fungsi</th>
+    </tr>
+    <tr>
+        <td>https://</td>
+        <td>Protocol</td>
+    </tr>
+    <tr>
+        <td>www</td>
+        <td>Sub Domain</td>
+    </tr>
+    <tr>
+        <td>example</td>
+        <td>Domain Name Server (DNS)</td>
+    </tr>
+    <tr>
+        <td>.com</td>
+        <td>Top-level Domain (TLD)</td>
+    </tr>
+    <tr>
+        <td>.my</td>
+        <td>Country Code Top-level Domain (ccTLD)</td>
+    </tr>
+    <tr>
+        <td>/user/</td>
+        <td>path folder</td>
+    </tr>
+    <tr>
+        <td>index.html</td>
+        <td>file</td>
+    </tr>
+    <tr>
+        <td>?id=123&name=kim</td>
+        <td>query parameter</td>
+    </tr>
+</table>
 
 ## Protocol
 Protokol komunikasi adalah sistem peraturan yang membolehkan dua atau lebih entiti sistem komunikasi menghantar maklumat melalui jenis variasi kuantiti fizikal. Untuk penjelasan lanjut mengenai HTTP, boleh baca di bahagian [HTTP vs HTTPS](#http-vs-https)
