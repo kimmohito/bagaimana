@@ -22,64 +22,50 @@ https://www.example.com.my/user/index.html?id=123&name=kim
     <tr>
         <th>Bahagian</th>
         <th>Fungsi</th>
+        <th>Penjelasan</th>
     </tr>
     <tr>
         <td>https://</td>
         <td>Protocol</td>
+        <td>Protokol komunikasi adalah sistem peraturan yang membolehkan dua atau lebih entiti sistem komunikasi menghantar maklumat melalui jenis variasi kuantiti fizikal. Untuk penjelasan lanjut mengenai HTTP, boleh baca di bahagian [HTTP vs HTTPS](#http-vs-https)</td>
     </tr>
     <tr>
         <td>www</td>
         <td>Sub Domain</td>
+        <td>Dalam hierarki Sistem Nama Domain, subdomain merupakan pecahan domain dibawah domain utama.</td>
     </tr>
     <tr>
         <td>example</td>
         <td>Domain Name Server (DNS)</td>
+        <td> Nama domain digunakan dalam pelbagai konteks rangkaian dan untuk tujuan penamaan dan alamat khusus aplikasi.</td>
     </tr>
     <tr>
         <td>.com</td>
         <td>Top-level Domain (TLD)</td>
+        <td>Sesiapa sahaja boleh daftar untuk TLD `.com` - commercial ini. Manakala TLD yang terkawal seperti `.org` - organization, `.edu` - education, `.gov` - goverment hanya boleh didaftarkan oleh pertubuhan rasmi sahaja.</td>
     </tr>
     <tr>
         <td>.my</td>
         <td>Country Code Top-level Domain (ccTLD)</td>
+        <td>ccTLD dikhususkan untuk negara, semua ccTLD terdiri daripada 2 huruf sahaja. Berikut merupakan senarai ringkas:<br> `.my` - malaysia<br>`.id` - indonesia <br>`.jp` - jepun<br>`.ru` - rusia<br> *Untuk mempunyai TLD `.my`, pemilik domain perlu mempunyai SSM terlebih dahulu.</td>
     </tr>
     <tr>
         <td>/user/</td>
         <td>path folder</td>
+        <td>Sekiranya folder tidak wujud, laman web akan menunjukkan laman `error 404 not found` menandakan path atau file tidak wujud. </td>
     </tr>
     <tr>
         <td>index.html</td>
         <td>file</td>
+        <td>Semua laman web menggunakan `index` sebagai halaman utama mereka. boleh jadi: `.html`, `.php`, `.js`, `.aspx` </td>
     </tr>
     <tr>
         <td>?id=123&name=kim</td>
         <td>query parameter</td>
+        <td>Dimulakan dengan simbol `?` dan dipisahkan dengan simbol `&`, disini kita dapat lihat terdapat dua query yang telah ditulis iaitu: `id=47`, `name=kim`</td>
     </tr>
 </table>
 
-## Protocol
-Protokol komunikasi adalah sistem peraturan yang membolehkan dua atau lebih entiti sistem komunikasi menghantar maklumat melalui jenis variasi kuantiti fizikal. Untuk penjelasan lanjut mengenai HTTP, boleh baca di bahagian [HTTP vs HTTPS](#http-vs-https)
-
-## Sub Domain
-Dalam hierarki Sistem Nama Domain, subdomain merupakan pecahan domain dibawah domain utama.
-
-## Domain Name Server (DNS)
- Nama domain digunakan dalam pelbagai konteks rangkaian dan untuk tujuan penamaan dan alamat khusus aplikasi.
-
-## Top-level Domain (TLD)
-Sesiapa sahaja boleh daftar untuk TLD `.com` - commercial ini. Manakala TLD yang terkawal seperti `.org` - organization, `.edu` - education, `.gov` - goverment hanya boleh didaftarkan oleh pertubuhan rasmi sahaja.
-
-## Country Code Top-level Domain (ccTLD)
-ccTLD dikhususkan untuk negara, semua ccTLD terdiri daripada 2 huruf sahaja. Berikut merupakan senarai ringkas:<br> `.my` - malaysia<br>`.id` - indonesia <br>`.jp` - jepun<br>`.ru` - rusia<br> *Untuk mempunyai TLD `.my`, pemilik domain perlu mempunyai SSM terlebih dahulu. |
-
-## Folder Path
-Sekiranya folder tidak wujud, laman web akan menunjukkan laman `error 404 not found` menandakan path atau file tidak wujud. 
-
-## File
-Semua laman web menggunakan `index` sebagai halaman utama mereka. boleh jadi: `.html`, `.php`, `.js`, `.aspx` 
-
-## Query Parameter
-Dimulakan dengan simbol `?` dan dipisahkan dengan simbol `&`, disini kita dapat lihat terdapat dua query yang telah ditulis iaitu: `id=47`, `name=kim`
 
 ## HTTP vs HTTPS
 Hypertext Transfer Protocol (HTTP) adalah protokol lapisan aplikasi untuk menghantar dokumen hipermedia, seperti HTML. Ia dirancang untuk komunikasi antara pelayar web dan pelayan web, tetapi juga dapat digunakan untuk tujuan lain.
