@@ -15,7 +15,7 @@ Laman web biasanya dikhaskan untuk topik atau tujuan tertentu, seperti berita, p
 
 Pengguna dapat mengakses laman web menggunakan pelbagai peranti termasuk komputer, laptop, tablet dan telefon pintar. Aplikasi perisian yang digunakan dipanggil penyemak-imbas web ([*web browser*](#web-browser)).
 
-Untuk pengaturcaraan laman web, anda boleh menggunakan penyunting text ([*text-editor*](#text-editor)) seperti Notepad yang sedia ada dalam Perisian *Windows*, ataupun aplikasi lain seperti Notepad++, Visual Studio Code, Atom, Sublime, Vim, Nano, Bracket, dan sebagainya.
+Untuk pengaturcaraan laman web, anda boleh menggunakan penyunting text ([*text-editor*](#text-editor)) seperti Notepad yang sedia ada dalam Perisian *Windows*, ataupun aplikasi lain seperti Notepad++, Visual Studio Code, Atom, Sublime, Vim, Nano, Bracket, dan sebagainya. Kenapa tidak menggunakan Word-Press ataupun Wix? WordPress bukanlah penyunting text, ianya adalah laman web yang memberikan kemudahan kepada pengguna untuk proses pembanggunan laman web secara *Graphical User Interface* ([GUI](gui)) tanpa perlu mengetahui ilmu pengaturcaraan. Pengguna hanya perlu *drag & drop* untuk menyiapkan sebuah laman web.
 
 ## Domain
 
