@@ -1,7 +1,7 @@
 ## Asas Laman Web
-*Website* atau lebih dikenali sebagai laman sesawang. Merupakan *landing page* yang mempunyai *domain name server* ([*DNS*](#domain)) dan diterbitkan di sekurang-kurangnya satu [*web server*](#web-server). Contoh yang terkenal adalah seperti: `google.com`, `twitter.com`, `github.com`.
+*Website* atau lebih dikenali sebagai laman sesawang. Merupakan *landing page* yang mempunyai *domain name server* ([*DNS*](#domain)) dan diterbitkan di sekurang-kurangnya satu *web server*. Contoh yang terkenal adalah seperti: `google.com`, `twitter.com`, `github.com`.
 
-Semua laman web yang boleh diakses secara terbuka merupakan *Word Wide Web* (*www*). Terdapat juga laman web peribadi yang hanya dapat diakses di rangkaian peribadi seperti laman web dalaman syarikat, ataupun laman web yang menggunakan servis [Apache](xampp#apache) melalui pemasangan [XAMPP](xampp) dalam komputer atau laptop anda.
+Semua laman web yang boleh diakses secara terbuka merupakan *Word Wide Web* (*www*). Terdapat juga laman web peribadi yang hanya dapat diakses di rangkaian peribadi seperti laman web dalaman syarikat, ataupun laman web yang menggunakan servis [Apache](../apache) melalui pemasangan [XAMPP](../xampp) dalam komputer atau laptop anda.
 
 Laman web biasanya dikhaskan untuk topik atau tujuan tertentu, seperti berita, pendidikan, perdagangan, hiburan atau jaringan sosial. Pautan antara laman web yang digunakan sering dimulakan dengan halaman utama.
 
@@ -25,7 +25,7 @@ https://www.example.com.my/user/index.html?id=123&name=kim
     <tr>
         <td>https://</td>
         <td>Protocol</td>
-        <td>Protokol komunikasi adalah sistem peraturan yang membolehkan dua atau lebih entiti sistem komunikasi menghantar maklumat melalui jenis variasi kuantiti fizikal. Untuk penjelasan lanjut mengenai HTTP, boleh baca di bahagian [HTTP vs HTTPS](#http-vs-https)</td>
+        <td>Protokol komunikasi adalah sistem peraturan yang membolehkan dua atau lebih entiti sistem komunikasi menghantar maklumat melalui jenis variasi kuantiti fizikal. Untuk penjelasan lanjut mengenai HTTP, boleh baca di bahagian <a href="#http-vs-https">HTTP vs HTTPS</a></td>
     </tr>
     <tr>
         <td>www</td>
@@ -40,32 +40,32 @@ https://www.example.com.my/user/index.html?id=123&name=kim
     <tr>
         <td>.com</td>
         <td>Top-level Domain (TLD)</td>
-        <td>Sesiapa sahaja boleh daftar untuk TLD `.com` - commercial ini. Manakala TLD yang terkawal seperti `.org` - organization, `.edu` - education, `.gov` - goverment hanya boleh didaftarkan oleh pertubuhan rasmi sahaja.</td>
+        <td>Sesiapa sahaja boleh daftar untuk TLD <code>.com</code> - commercial ini. Manakala TLD yang terkawal seperti <code>.org</code> - organization, <code>.edu</code> - education, <code>.gov</code> - goverment hanya boleh didaftarkan oleh pertubuhan rasmi sahaja.</td>
     </tr>
     <tr>
         <td>.my</td>
         <td>Country Code Top-level Domain (ccTLD)</td>
-        <td>ccTLD dikhususkan untuk negara, semua ccTLD terdiri daripada 2 huruf sahaja. Berikut merupakan senarai ringkas:<br> `.my` - malaysia<br>`.id` - indonesia <br>`.jp` - jepun<br>`.ru` - rusia<br> *Untuk mempunyai TLD `.my`, pemilik domain perlu mempunyai SSM terlebih dahulu.</td>
+        <td>ccTLD dikhususkan untuk negara, semua ccTLD terdiri daripada 2 huruf sahaja. Berikut merupakan senarai ringkas:<br><code>.my</code> - malaysia<br><code>.id</code> - indonesia <br><code>.jp</code> - jepun<br><code>.ru</code> - rusia<br> *Untuk mempunyai TLD <code>.my</code>, pemilik domain perlu mempunyai <a href="https://en.wikipedia.org/wiki/Companies_Commission_of_Malaysia#:~:text=The%20Companies%20Commission%20of%20Malaysia,and%20business%20affairs%20in%20Malaysia.">Suruhanjaya Syarikat Malaysia (SSM)</a> terlebih dahulu.</td>
     </tr>
     <tr>
         <td>/user/</td>
         <td>path folder</td>
-        <td>Sekiranya folder tidak wujud, laman web akan menunjukkan laman `error 404 not found` menandakan path atau file tidak wujud. </td>
+        <td>Sekiranya folder tidak wujud, laman web akan menunjukkan laman <code>error 404 not found</code> menandakan path atau file tidak wujud. </td>
     </tr>
     <tr>
         <td>index.html</td>
         <td>file</td>
-        <td>Semua laman web menggunakan `index` sebagai halaman utama mereka. boleh jadi: `.html`, `.php`, `.js`, `.aspx` </td>
+        <td>Semua laman web menggunakan <code>index</code> sebagai halaman utama mereka. boleh jadi: <code>.html</code>, <code>.php</code>, <code>.js</code>, <code>.aspx</code> </td>
     </tr>
     <tr>
         <td>?id=123&name=kim</td>
         <td>query parameter</td>
-        <td>Dimulakan dengan simbol `?` dan dipisahkan dengan simbol `&`, disini kita dapat lihat terdapat dua query yang telah ditulis iaitu: `id=47`, `name=kim`</td>
+        <td>Dimulakan dengan simbol <code>?</code> dan dipisahkan dengan simbol <code>&</code>, disini kita dapat lihat terdapat dua query yang telah ditulis iaitu: <code>id=47</code> dan <code>name=kim</code></td>
     </tr>
 </table>
 
 
 ## HTTP vs HTTPS
 Hypertext Transfer Protocol (HTTP) adalah protokol lapisan aplikasi untuk menghantar dokumen hipermedia, seperti HTML. Ia dirancang untuk komunikasi antara pelayar web dan pelayan web, tetapi juga dapat digunakan untuk tujuan lain.
-Manakala HTTPS pula adalah Hypertext Transfer Protocol Secure, fungsinya sama seperti HTTP cuma ditambahkan *ecnryption*. Supaya penggodam tidak dapat memahami komunikasi antara client dan server.
+Manakala HTTPS pula adalah Hypertext Transfer Protocol Secure, fungsinya sama seperti HTTP cuma ditambahkan *encryption*. Supaya penggodam tidak dapat memahami komunikasi antara client dan server.
 <img src="hacker.jpg">
