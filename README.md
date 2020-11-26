@@ -2,7 +2,10 @@ Repo ini ditujukan khas bagi mereka yang mempunyai minat dalam bidang pengaturca
 
 # Senarai Topik
 - [Asas Laman Web](asas-laman-web)
-- [Local Hosting](localhost)
+- [Kawalan Versi Git (Version Control Git)](git)
+
+<!--
 - [Penyunting Teks (Text-Editor)](text-editor)
 - [Bahasa Pengaturcaraan](languages)
-- [Kawalan Versi Git (Version Control Git)](git)
+- [Local Hosting](localhost) 
+-->
