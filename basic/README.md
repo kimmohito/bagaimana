@@ -1,4 +1,4 @@
-## Asas Laman Web
+## Pengetahuan Asas Laman Sesawang
 *Website* atau lebih dikenali sebagai laman sesawang. Merupakan *landing page* yang mempunyai *domain name server* ([*DNS*](#domain)) dan diterbitkan di sekurang-kurangnya satu *web server*. Contoh yang terkenal adalah seperti: `google.com`, `twitter.com`, `github.com`.
 
 Semua laman web yang boleh diakses secara terbuka merupakan *Word Wide Web* (*www*). Terdapat juga laman web peribadi yang hanya dapat diakses di rangkaian peribadi seperti laman web dalaman syarikat, ataupun laman web yang menggunakan servis [Apache](../apache) melalui pemasangan [XAMPP](../xampp) dalam komputer atau laptop anda.
